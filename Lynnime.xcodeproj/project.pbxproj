@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30F73FD2B0A011E00992BB0 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F73FC2B0A011E00992BB0 /* Dummy.swift */; };
+		B31830D72B0738E50078E7E5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31830D62B0738E40078E7E5 /* DetailView.swift */; };
+		B31830DD2B073ABF0078E7E5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B31830DC2B073ABF0078E7E5 /* Kingfisher */; };
+		B31830DF2B073B980078E7E5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31830DE2B073B980078E7E5 /* SearchBar.swift */; };
+		B31830E12B073E0E0078E7E5 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31830E02B073E0E0078E7E5 /* AnimeDetailView.swift */; };
+		B34F42AC2B037F9100F7DF87 /* LynnimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F42AB2B037F9100F7DF87 /* LynnimeApp.swift */; };
+		B34F42AE2B037F9100F7DF87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F42AD2B037F9100F7DF87 /* ContentView.swift */; };
+		B34F42B02B037F9400F7DF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34F42AF2B037F9400F7DF87 /* Assets.xcassets */; };
+		B34F42B32B037F9400F7DF87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34F42B22B037F9400F7DF87 /* Preview Assets.xcassets */; };
+		B34F42BA2B037FB500F7DF87 /* Animes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F42B92B037FB500F7DF87 /* Animes.swift */; };
+		B34F42BC2B0380BB00F7DF87 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34F42BB2B0380BB00F7DF87 /* Api.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30F73FC2B0A011E00992BB0 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		B31830D62B0738E40078E7E5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B31830DE2B073B980078E7E5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		B31830E02B073E0E0078E7E5 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+		B34F42A82B037F9100F7DF87 /* Lynnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34F42AB2B037F9100F7DF87 /* LynnimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LynnimeApp.swift; sourceTree = "<group>"; };
+		B34F42AD2B037F9100F7DF87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B34F42AF2B037F9400F7DF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B34F42B22B037F9400F7DF87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B34F42B92B037FB500F7DF87 /* Animes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animes.swift; sourceTree = "<group>"; };
+		B34F42BB2B0380BB00F7DF87 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34F42A52B037F9100F7DF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31830DD2B073ABF0078E7E5 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31830D82B0738EF0078E7E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B34F42AD2B037F9100F7DF87 /* ContentView.swift */,
+				B31830D62B0738E40078E7E5 /* DetailView.swift */,
+				B31830DE2B073B980078E7E5 /* SearchBar.swift */,
+				B31830E02B073E0E0078E7E5 /* AnimeDetailView.swift */,
+				B30F73FC2B0A011E00992BB0 /* Dummy.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B31830D92B0738FD0078E7E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B34F42B92B037FB500F7DF87 /* Animes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B31830DA2B07390F0078E7E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B34F42BB2B0380BB00F7DF87 /* Api.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B34F429F2B037F9100F7DF87 = {
+			isa = PBXGroup;
+			children = (
+				B34F42AA2B037F9100F7DF87 /* Lynnime */,
+				B34F42A92B037F9100F7DF87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B34F42A92B037F9100F7DF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34F42A82B037F9100F7DF87 /* Lynnime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34F42AA2B037F9100F7DF87 /* Lynnime */ = {
+			isa = PBXGroup;
+			children = (
+				B31830DA2B07390F0078E7E5 /* ViewModel */,
+				B31830D92B0738FD0078E7E5 /* Model */,
+				B31830D82B0738EF0078E7E5 /* View */,
+				B34F42AB2B037F9100F7DF87 /* LynnimeApp.swift */,
+				B34F42AF2B037F9400F7DF87 /* Assets.xcassets */,
+				B34F42B12B037F9400F7DF87 /* Preview Content */,
+			);
+			path = Lynnime;
+			sourceTree = "<group>";
+		};
+		B34F42B12B037F9400F7DF87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B34F42B22B037F9400F7DF87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B34F42A72B037F9100F7DF87 /* Lynnime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34F42B62B037F9400F7DF87 /* Build configuration list for PBXNativeTarget "Lynnime" */;
+			buildPhases = (
+				B34F42A42B037F9100F7DF87 /* Sources */,
+				B34F42A52B037F9100F7DF87 /* Frameworks */,
+				B34F42A62B037F9100F7DF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lynnime;
+			packageProductDependencies = (
+				B31830DC2B073ABF0078E7E5 /* Kingfisher */,
+			);
+			productName = Lynnime;
+			productReference = B34F42A82B037F9100F7DF87 /* Lynnime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34F42A02B037F9100F7DF87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B34F42A72B037F9100F7DF87 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B34F42A32B037F9100F7DF87 /* Build configuration list for PBXProject "Lynnime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B34F429F2B037F9100F7DF87;
+			packageReferences = (
+				B31830DB2B073ABF0078E7E5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = B34F42A92B037F9100F7DF87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34F42A72B037F9100F7DF87 /* Lynnime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34F42A62B037F9100F7DF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34F42B32B037F9400F7DF87 /* Preview Assets.xcassets in Resources */,
+				B34F42B02B037F9400F7DF87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34F42A42B037F9100F7DF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31830E12B073E0E0078E7E5 /* AnimeDetailView.swift in Sources */,
+				B34F42AE2B037F9100F7DF87 /* ContentView.swift in Sources */,
+				B30F73FD2B0A011E00992BB0 /* Dummy.swift in Sources */,
+				B34F42BA2B037FB500F7DF87 /* Animes.swift in Sources */,
+				B34F42BC2B0380BB00F7DF87 /* Api.swift in Sources */,
+				B31830D72B0738E50078E7E5 /* DetailView.swift in Sources */,
+				B34F42AC2B037F9100F7DF87 /* LynnimeApp.swift in Sources */,
+				B31830DF2B073B980078E7E5 /* SearchBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B34F42B42B037F9400F7DF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B34F42B52B037F9400F7DF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34F42B72B037F9400F7DF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynnime/Preview Content\"";
+				DEVELOPMENT_TEAM = MAFKHQX2GF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akitodaiki.Lynnime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B34F42B82B037F9400F7DF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynnime/Preview Content\"";
+				DEVELOPMENT_TEAM = MAFKHQX2GF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akitodaiki.Lynnime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34F42A32B037F9100F7DF87 /* Build configuration list for PBXProject "Lynnime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34F42B42B037F9400F7DF87 /* Debug */,
+				B34F42B52B037F9400F7DF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34F42B62B037F9400F7DF87 /* Build configuration list for PBXNativeTarget "Lynnime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34F42B72B037F9400F7DF87 /* Debug */,
+				B34F42B82B037F9400F7DF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B31830DB2B073ABF0078E7E5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B31830DC2B073ABF0078E7E5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B31830DB2B073ABF0078E7E5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B34F42A02B037F9100F7DF87 /* Project object */;
+}
